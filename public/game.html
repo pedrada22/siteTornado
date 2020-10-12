@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>CDM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    
+  </head>
+  <body onload="init()">
+    <table>
+        <tr>
+            <td>
+                <br>
+                    <input type="button" onclick="resetPoolTable()" value="Reset"/>
+                <br>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <canvas id="canvasbg" width="490" height="280" style="position: absolute; z-index: 0">
+    </canvas>
+    <canvas id="canvas" width="453" height="243" style="position: absolute; z-index: 1; left: 37px;top: 80px;">
+    </canvas>
+                
+  </body>
+</html>
+
+<script type='text/javascript' src='src/pedradaGameEngine.js'></script>

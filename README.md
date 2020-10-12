@@ -18,8 +18,6 @@ examples at:
 * http://localhost:8888 - 
 [**post** and **get** examples passing information on form submit](http://localhost:8888)
 
-* http://localhost:8888/mainLoop.html - 
-[My attempt to do a html5 canvas game framework](http://localhost:8888/mainLoop.html)
-Feel free to clone it and try to resolve the circular collision problem.
-* http://localhost:8888/blog/index.html - 
-[A bootstrap blog example showing that anything can be served by tornado](http://localhost:8888/blog/index.html)
+* http://localhost:8888/public/game.html
+[My attempt to do a html5 canvas game framework](http://localhost:8888/public/game.html)
+Feel free to clone it and maybe add more functionalities like sprites, masks(map movement)...

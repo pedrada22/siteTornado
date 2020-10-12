@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>AstroM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+  </head>
+  <body>
+    <table>
+        <tr>
+            <td>
+                <form action="/register" method="POST">
+                    {% module xsrf_form_html() %}
+                    Name: <input type = "text" name="ui_usr_name" value="{{ name1 }}"/>
+                    <br>
+                    E
+                    <br>
+                    Email: <input type = "text" name="ui_usr_email" value="{{ email1 }}"/>
+                    <br>
+                    PW: <input type = "password" name="ui_usr_pw"/>
+                    <input type="submit" value="Login">
+                    
+                </form>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+  </body>
+</html>
+
+<script>
+
+</script>
